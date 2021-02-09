@@ -1,0 +1,83 @@
+{
+    "oracleUrl": "https://oracle.deri.finance/price",
+    "databaseAddress": "0xBe2B8B1a57A23234bbcA5a33A950022941682a06",
+    "bscurl":"https://data-seed-prebsc-2-s1.binance.org:8545/",
+    "deriAddress":"0x3C125824a889B46f039ab7449b70AF5b8466F3cf",
+    "deriDataBaseAbi":[{"inputs":[],"stateMutability":"nonpayable","type":"constructor"},{"inputs":[],"name":"controller","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"poolData","outputs":[{"internalType":"uint256","name":"apy","type":"uint256"},{"internalType":"uint256","name":"finishLine","type":"uint256"},{"internalType":"uint256","name":"finishBlock","type":"uint256"},{"internalType":"uint256","name":"finishRank","type":"uint256"},{"internalType":"string","name":"bTokenSymbol","type":"string"},{"internalType":"uint256","name":"liquidity","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address[]","name":"accounts","type":"address[]"},{"internalType":"uint256[]","name":"values","type":"uint256[]"}],"name":"setDeriClaimed","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address[]","name":"accounts","type":"address[]"},{"internalType":"uint256[]","name":"values","type":"uint256[]"}],"name":"setDeriHarvested","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address[]","name":"pools","type":"address[]"},{"internalType":"uint256[]","name":"values","type":"uint256[]"}],"name":"setPoolAPY","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"pool","type":"address"},{"internalType":"string","name":"symbol","type":"string"}],"name":"setPoolBTokenSymbol","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address[]","name":"pools","type":"address[]"},{"internalType":"uint256[]","name":"values","type":"uint256[]"}],"name":"setPoolFinishBlock","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address[]","name":"pools","type":"address[]"},{"internalType":"uint256[]","name":"values","type":"uint256[]"}],"name":"setPoolFinishLine","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address[]","name":"pools","type":"address[]"},{"internalType":"uint256[]","name":"values","type":"uint256[]"}],"name":"setPoolFinishRank","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address[]","name":"pools","type":"address[]"},{"internalType":"uint256[]","name":"values","type":"uint256[]"}],"name":"setPoolLiquidity","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address[]","name":"accounts","type":"address[]"},{"internalType":"uint256[]","name":"amounts","type":"uint256[]"},{"internalType":"uint256[]","name":"deadlines","type":"uint256[]"},{"internalType":"uint8[]","name":"vs","type":"uint8[]"},{"internalType":"bytes32[]","name":"rs","type":"bytes32[]"},{"internalType":"bytes32[]","name":"ss","type":"bytes32[]"}],"name":"setSignature","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address[]","name":"accounts","type":"address[]"}],"name":"unsetSignature","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"userData","outputs":[{"internalType":"uint256","name":"deriHarvested","type":"uint256"},{"internalType":"uint256","name":"deriClaimed","type":"uint256"},{"internalType":"uint256","name":"amount","type":"uint256"},{"internalType":"uint256","name":"deadline","type":"uint256"},{"internalType":"uint8","name":"v","type":"uint8"},{"internalType":"bytes32","name":"r","type":"bytes32"},{"internalType":"bytes32","name":"s","type":"bytes32"}],"stateMutability":"view","type":"function"}],
+    "addresses": [
+        [
+            {
+                "bToken": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+                "pToken": "0x0000000000000000000000000000000000000000",
+                "lToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "pool": "0x243ac79261Bd9308567936070df2bA3B1777495d",
+                "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "chanId":"56",
+                "staking":false,
+                "isInTvlRace":true
+            }
+        ],
+        [
+            {
+                "bToken": "0x0298c2b32eaE4da002a15f36fdf7615BEa3DA047",
+                "pToken": "0x0000000000000000000000000000000000000000",
+                "lToken": "0x90fE976Cbb48E0761A84DDA2974024377994a997",
+                "pool": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "chanId":"128",
+                "staking":false,
+                "isInTvlRace":true
+            }
+        ],
+        [
+            {
+                "bToken": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                "pToken": "0x0000000000000000000000000000000000000000",
+                "lToken": "0x43CA6D7129d7F490d5B91B4D14D7c877D15A92dA",
+                "pool": "0xe91cb8ba06028f38e231F7099e9B97CEDd2f2736",
+                "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "chanId":"1",
+                "staking":false,
+                "isInTvlRace":true
+            },
+            {
+                "bToken": "0x3449FC1Cd036255BA1EB19d65fF4BA2b8903A69a",
+                "pToken": "0x0000000000000000000000000000000000000000",
+                "lToken": "0xeC27d4c53C2E29F1113A9667c0B19442df83c1f1",
+                "pool": "0x8518054fa6b7E0d4834bfD152c9BA5BDB856FD2B",
+                "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "chanId":"1",
+                "staking":false,
+                "isInTvlRace":true
+            }
+            
+        ]
+        
+        
+    ],
+
+    "abifiles": {
+        "pool": "pool.abi",
+        "bToken": "bToken.abi",
+        "pToken": "pToken.abi",
+        "lToken": "lToken.abi",
+        "dToken": "dToken.abi"
+    },
+
+    "methods": {
+        "symbol": "symbol",
+        "decimals": "decimals",
+        "totalSupply": "totalSupply",
+        "balanceOf": "balanceOf",
+        "allowance": "allowance",
+        "approve": "approve",
+        "getParameters": "getParameters",
+        "getPosition": "getPosition(address)",
+        "getStateValues": "getStateValues",
+        "depositMargin": "depositMargin(uint256,uint256,uint256,uint8,bytes32,bytes32)",
+        "withdrawMargin": "withdrawMargin(uint256,uint256,uint256,uint8,bytes32,bytes32)",
+        "addLiquidity": "addLiquidity(uint256)",
+        "removeLiquidity": "removeLiquidity(uint256)",
+        "tradeWithMargin": "tradeWithMargin(int256,uint256,uint256,uint256,uint8,bytes32,bytes32)"
+    }
+}
