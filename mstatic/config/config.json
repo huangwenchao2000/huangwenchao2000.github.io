@@ -14,7 +14,30 @@
                 "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
                 "chanId":"56",
                 "staking":false,
+                "bTokenSymbol":"BUSD",
                 "isInTvlRace":true
+            },
+            {
+                "bToken": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+                "pToken": "0x0000000000000000000000000000000000000000",
+                "lToken": "0xe91cb8ba06028f38e231F7099e9B97CEDd2f2736",
+                "pool": "0x05AFF24f7f653d2F067917C0B157f84971e54966",
+                "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "chanId":"56",
+                "staking":false,
+                "bTokenSymbol":"WBNB",
+                "isInTvlRace":false
+            },
+            {
+                "bToken": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+                "pToken": "0x0000000000000000000000000000000000000000",
+                "lToken": "0x8518054fa6b7E0d4834bfD152c9BA5BDB856FD2B",
+                "pool": "0xddE7F8f9ebe2564b79d6f044AdCD9c9Fd4CEADa6",
+                "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "chanId":"56",
+                "staking":false,
+                "bTokenSymbol":"CAKE",
+                "isInTvlRace":false
             }
         ],
         [
@@ -26,7 +49,30 @@
                 "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
                 "chanId":"128",
                 "staking":false,
+                "bTokenSymbol":"HUSD",
                 "isInTvlRace":true
+            },
+            {
+                "bToken": "0x5545153CCFcA01fbd7Dd11C0b23ba694D9509A6F",
+                "pToken": "0x0000000000000000000000000000000000000000",
+                "lToken": "0x43CA6D7129d7F490d5B91B4D14D7c877D15A92dA",
+                "pool": "0xe91cb8ba06028f38e231F7099e9B97CEDd2f2736",
+                "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "chanId":"128",
+                "staking":false,
+                "bTokenSymbol":"WHT",
+                "isInTvlRace":false
+            },
+            {
+                "bToken": "0x25D2e80cB6B86881Fd7e07dd263Fb79f4AbE033c",
+                "pToken": "0x0000000000000000000000000000000000000000",
+                "lToken": "0xeC27d4c53C2E29F1113A9667c0B19442df83c1f1",
+                "pool": "0x8518054fa6b7E0d4834bfD152c9BA5BDB856FD2B",
+                "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "chanId":"128",
+                "staking":false,
+                "bTokenSymbol":"MDX",
+                "isInTvlRace":false
             }
         ],
         [
@@ -38,6 +84,7 @@
                 "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
                 "chanId":"1",
                 "staking":false,
+                "bTokenSymbol":"USDT",
                 "isInTvlRace":true
             },
             {
@@ -48,7 +95,41 @@
                 "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
                 "chanId":"1",
                 "staking":false,
+                "bTokenSymbol":"BAC",
                 "isInTvlRace":true
+            },
+            {
+                "bToken": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+                "pToken": "0x0000000000000000000000000000000000000000",
+                "lToken": "0x3B50881F5646E809ef85Bb0016af3b2Ee5313d46",
+                "pool": "0x4847f7b81476346e5e55BBdD3b447435c5Be4a7d",
+                "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "chanId":"1",
+                "staking":false,
+                "bTokenSymbol":"SUSHI",
+                "isInTvlRace":false
+            },
+            {
+                "bToken": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+                "pToken": "0x0000000000000000000000000000000000000000",
+                "lToken": "0x0069b4Fb48e5B8E9CB6960f4c2468b625ACfb465",
+                "pool": "0xC773104722aA79bdA8f6ECF9384Cf7d9B70371e2",
+                "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "chanId":"1",
+                "staking":false,
+                "bTokenSymbol":"AAVE",
+                "isInTvlRace":false
+            },
+            {
+                "bToken": "0xA3DfbF2933FF3d96177bde4928D0F5840eE55600",
+                "pToken": "0x0000000000000000000000000000000000000000",
+                "lToken": "0xFFCfB31b6500E7e420CFE5D0df710DdF928F55FD",
+                "pool": "0x3f98429b673AF39671a495b5B12Ebd5C10092ccB",
+                "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "chanId":"1",
+                "staking":true,
+                "bTokenSymbol":"SLP",
+                "isInTvlRace":false
             }
             
         ]
