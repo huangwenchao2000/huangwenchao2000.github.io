@@ -20,6 +20,7 @@
                 "pool": "0x243ac79261Bd9308567936070df2bA3B1777495d",
                 "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
                 "chanId":"56",
+                "trustID":"c60",
                 "staking":false,
                 "bTokenSymbol":"BUSD",
                 "isInTvlRace":true
@@ -31,6 +32,7 @@
                 "pool": "0x447A9BC67721cB115ce6E664a261568a3c8F5B35",
                 "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
                 "chanId":"56",
+                "trustID":"c60",
                 "staking":false,
                 "bTokenSymbol":"WBNB",
                 "isInTvlRace":false
@@ -55,6 +57,7 @@
                 "pool": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
                 "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
                 "chanId":"128",
+                "trustID":"0",
                 "staking":false,
                 "bTokenSymbol":"HUSD",
                 "isInTvlRace":true
@@ -66,6 +69,7 @@
                 "pool": "0xEDBbC66fC5Ee21E97001A3E88E312457003D6BEc",
                 "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
                 "chanId":"128",
+                "trustID":"0",
                 "staking":false,
                 "bTokenSymbol":"WHT",
                 "isInTvlRace":false
@@ -77,6 +81,7 @@
                 "pool": "0x667FC1D27dC94a8c7a9ff86fc9908079DCFD6aA0",
                 "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
                 "chanId":"128",
+                "trustID":"0",
                 "staking":false,
                 "bTokenSymbol":"MDX",
                 "isInTvlRace":false
@@ -91,6 +96,7 @@
                 "pool": "0xe91cb8ba06028f38e231F7099e9B97CEDd2f2736",
                 "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
                 "chanId":"1",
+                "trustID":"c0",
                 "staking":false,
                 "bTokenSymbol":"USDT",
                 "isInTvlRace":true
@@ -103,6 +109,7 @@
                 "pool": "0x4847f7b81476346e5e55BBdD3b447435c5Be4a7d",
                 "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
                 "chanId":"1",
+                "trustID":"c0",
                 "staking":false,
                 "bTokenSymbol":"SUSHI",
                 "isInTvlRace":false
@@ -114,6 +121,7 @@
                 "pool": "0xC773104722aA79bdA8f6ECF9384Cf7d9B70371e2",
                 "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
                 "chanId":"1",
+                "trustID":"c0",
                 "staking":false,
                 "bTokenSymbol":"AAVE",
                 "isInTvlRace":false
@@ -125,6 +133,7 @@
                 "pool": "0x3f98429b673AF39671a495b5B12Ebd5C10092ccB",
                 "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
                 "chanId":"1",
+                "trustID":"c0",
                 "staking":true,
                 "bTokenSymbol":"DERI-USDT SLP",
                 "isInTvlRace":false
