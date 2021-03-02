@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.select_network{
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    z-index: 2007;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: none;
+    .close{
+        position: absolute;
+        padding: 30px;
+        right: 500px;
+    }
+    .network_box{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        float: right;
+        height: 100vh;
+        background: #171f31;
+        box-shadow: 0 2px 18px 7px rgb(0 0 0 / 10%);
+        .hr{
+            width: 100%;
+            height: 1px;
+            background: hsla(0,0%,100%,.05);
+        }
+        .title{
+            padding: 80px 50px 20px;
+            font-weight: 500;
+        }
+        .scroll{
+            padding: 16px 10px;
+            .chain{
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                justify-content: space-between;
+                height: 56px;
+                padding: 0 40px;
+                transition: all .3s;
+                .chain-left{
+                    display: flex;
+                    align-items: center;
+                }
+                .chain-left>:nth-child(n+2) {
+                    margin-left: 8px;
+                }
+            }
+            .chain:hover{
+                opacity: .8;
+                background: rgba(0,0,0,.3);
+            }
+            
+        }
+    }
+}
+.bridge {
+    background-color: rgb(25, 32, 43) !important;
+    height: 100vh;
+    color: #ffffff;
+    position: relative;
+    // filter: blur(5px);
+    .prompt{
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        z-index: 999;
+        display: none;
+        background-color:rgba(0,0,0,.2);
+        .box{
+            width: 512px;
+            height: 220px;
+            background: #0C0F16;
+            border-radius: 20px;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            .close{
+                position: absolute;
+                right: 10px;
+                cursor: pointer;
+                top:10px;
+            }
+            .btitle{
+                font-size: 26px;
+                font-weight: 500;
+                margin-top: 20px;
+                text-align: center;
+            }
+            .btn_box{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0 20px 0 20px;
+                margin-top: 23px;
+                .btnconfirm{
+                    width: 335px;
+                    height: 48px;
+                    background: linear-gradient(90deg, #09D3AF 0%, #09B8C2 18%, #0965FF 100%);
+                    border-radius: 24px;
+                    border: 0;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .nav {
+        display: flex;
+        height: 80px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #141924;
+
+        .logo {
+            height: 32px;
+            margin-left: 40px;
+
+            img {
+                width: 110px;
+                height: 100%;
+            }
+        }
+
+        .connectw {
+            margin-right: 40px;
+            .connect {
+                width: 180px;
+                height: 40px;
+                background: linear-gradient(90deg, #09D3AF 0%, #09B8C2 18%, #0965FF 100%);
+                border-radius: 41px;
+                border: 0;
+                color: #fff;
+            }
+        }
+    }
+
+    .container-fluid {
+        margin-top: 30px;
+        .card_one{
+            box-sizing: border-box;
+            width: 452px;
+            padding: 40px 50px 54px;
+            display: flex;
+            justify-content: space-between;
+            background: #141924;
+            box-shadow: 0 2px 18px 7px rgb(0 0 0 / 10%);
+            border-radius: 10px;
+            p {
+                text-align: center;
+                font-size: 25px;
+            }
+            .box_network{
+                display: flex;
+                justify-content: space-between;
+            }
+            .title{
+                display: flex;
+                justify-content: space-between;
+                div{
+                    width: 150px;
+                    text-align: center;
+                    font-size: 24px;
+                }
+            }
+            .disable{
+                width: 152px;
+                height: 56px;
+                position:absolute;
+                z-index: 55;
+                cursor: not-allowed;
+                background-color: rgba(0, 0, 0, .26);
+                display: none;
+            }
+            .from_network,
+            .to_network {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 152px;
+                padding: 15px;
+                cursor: pointer;
+                border: 1px solid hsla(0, 0%, 100%, .1);
+                border-radius: 4px;
+                background: hsla(0, 0%, 100%, .04);
+                .from_bsc,.from_heco,.from_eth{
+                    display: none;
+                }
+                .to_bsc,.to_heco,.to_eth{
+                    display: none;
+                }
+            }
+
+            .amount {
+                margin-top: 20px;
+                .claiming{
+                    display: none;
+                }
+                .input {
+                    display: flex;
+                    padding: 18px 14px;
+                    margin-top: 5px;
+                    background: rgba(0, 0, 0, .26);
+                    border-radius: 4px;
+
+                    .c-input {
+                        width: -webkit-fill-available;
+                        width: -moz-available;
+                        width: stretch;
+                        min-width: 0;
+                        padding: 0;
+                        border: 0;
+                        outline: none;
+                        background: transparent;
+                        color: inherit;
+                    }
+                }
+            }
+            .to_amount{
+                p{
+                    text-align: start;
+                }
+            }
+            .from_btn,.claim{
+                margin-top: 50px;
+                button {
+                    width: 352px;
+                    background-image: linear-gradient(90deg, #09d3af 0%, #09b8c2 18%, #0965ff 100%);
+                    border-radius: 24px;
+                    height: 48px;
+                    border: 0;
+                }
+                .send{
+                    display: none;
+                }
+            }
+            .claim{
+                display: none;
+            }
+        }
+
+        .card_two {
+            margin-left: 100px;
+        }
+    }
+
+}

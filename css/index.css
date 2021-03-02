@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+.select_network {
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  z-index: 2007;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  display: none;
+}
+.select_network .close {
+  position: absolute;
+  padding: 30px;
+  right: 500px;
+}
+.select_network .network_box {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  float: right;
+  height: 100vh;
+  background: #171f31;
+  box-shadow: 0 2px 18px 7px rgba(0, 0, 0, 0.1);
+}
+.select_network .network_box .hr {
+  width: 100%;
+  height: 1px;
+  background: hsla(0, 0%, 100%, 0.05);
+}
+.select_network .network_box .title {
+  padding: 80px 50px 20px;
+  font-weight: 500;
+}
+.select_network .network_box .scroll {
+  padding: 16px 10px;
+}
+.select_network .network_box .scroll .chain {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  height: 56px;
+  padding: 0 40px;
+  transition: all 0.3s;
+}
+.select_network .network_box .scroll .chain .chain-left {
+  display: flex;
+  align-items: center;
+}
+.select_network .network_box .scroll .chain .chain-left > :nth-child(n+2) {
+  margin-left: 8px;
+}
+.select_network .network_box .scroll .chain:hover {
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 0.3);
+}
+.bridge {
+  background-color: #19202b !important;
+  height: 100vh;
+  color: #ffffff;
+  position: relative;
+}
+.bridge .prompt {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.bridge .prompt .box {
+  width: 512px;
+  height: 220px;
+  background: #0C0F16;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bridge .prompt .box .close {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  top: 10px;
+}
+.bridge .prompt .box .btitle {
+  font-size: 26px;
+  font-weight: 500;
+  margin-top: 20px;
+  text-align: center;
+}
+.bridge .prompt .box .btn_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px 0 20px;
+  margin-top: 23px;
+}
+.bridge .prompt .box .btn_box .btnconfirm {
+  width: 335px;
+  height: 48px;
+  background: linear-gradient(90deg, #09D3AF 0%, #09B8C2 18%, #0965FF 100%);
+  border-radius: 24px;
+  border: 0;
+  color: #fff;
+}
+.bridge .nav {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141924;
+}
+.bridge .nav .logo {
+  height: 32px;
+  margin-left: 40px;
+}
+.bridge .nav .logo img {
+  width: 110px;
+  height: 100%;
+}
+.bridge .nav .connectw {
+  margin-right: 40px;
+}
+.bridge .nav .connectw .connect {
+  width: 180px;
+  height: 40px;
+  background: linear-gradient(90deg, #09D3AF 0%, #09B8C2 18%, #0965FF 100%);
+  border-radius: 41px;
+  border: 0;
+  color: #fff;
+}
+.bridge .container-fluid {
+  margin-top: 30px;
+}
+.bridge .container-fluid .card_one {
+  box-sizing: border-box;
+  width: 452px;
+  padding: 40px 50px 54px;
+  display: flex;
+  justify-content: space-between;
+  background: #141924;
+  box-shadow: 0 2px 18px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.bridge .container-fluid .card_one p {
+  text-align: center;
+  font-size: 25px;
+}
+.bridge .container-fluid .card_one .box_network {
+  display: flex;
+  justify-content: space-between;
+}
+.bridge .container-fluid .card_one .title {
+  display: flex;
+  justify-content: space-between;
+}
+.bridge .container-fluid .card_one .title div {
+  width: 150px;
+  text-align: center;
+  font-size: 24px;
+}
+.bridge .container-fluid .card_one .disable {
+  width: 152px;
+  height: 56px;
+  position: absolute;
+  z-index: 55;
+  cursor: not-allowed;
+  background-color: rgba(0, 0, 0, 0.26);
+  display: none;
+}
+.bridge .container-fluid .card_one .from_network,
+.bridge .container-fluid .card_one .to_network {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 152px;
+  padding: 15px;
+  cursor: pointer;
+  border: 1px solid hsla(0, 0%, 100%, 0.1);
+  border-radius: 4px;
+  background: hsla(0, 0%, 100%, 0.04);
+}
+.bridge .container-fluid .card_one .from_network .from_bsc,
+.bridge .container-fluid .card_one .to_network .from_bsc,
+.bridge .container-fluid .card_one .from_network .from_heco,
+.bridge .container-fluid .card_one .to_network .from_heco,
+.bridge .container-fluid .card_one .from_network .from_eth,
+.bridge .container-fluid .card_one .to_network .from_eth {
+  display: none;
+}
+.bridge .container-fluid .card_one .from_network .to_bsc,
+.bridge .container-fluid .card_one .to_network .to_bsc,
+.bridge .container-fluid .card_one .from_network .to_heco,
+.bridge .container-fluid .card_one .to_network .to_heco,
+.bridge .container-fluid .card_one .from_network .to_eth,
+.bridge .container-fluid .card_one .to_network .to_eth {
+  display: none;
+}
+.bridge .container-fluid .card_one .amount {
+  margin-top: 20px;
+}
+.bridge .container-fluid .card_one .amount .claiming {
+  display: none;
+}
+.bridge .container-fluid .card_one .amount .input {
+  display: flex;
+  padding: 18px 14px;
+  margin-top: 5px;
+  background: rgba(0, 0, 0, 0.26);
+  border-radius: 4px;
+}
+.bridge .container-fluid .card_one .amount .input .c-input {
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: stretch;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  color: inherit;
+}
+.bridge .container-fluid .card_one .to_amount p {
+  text-align: start;
+}
+.bridge .container-fluid .card_one .from_btn,
+.bridge .container-fluid .card_one .claim {
+  margin-top: 50px;
+}
+.bridge .container-fluid .card_one .from_btn button,
+.bridge .container-fluid .card_one .claim button {
+  width: 352px;
+  background-image: linear-gradient(90deg, #09d3af 0%, #09b8c2 18%, #0965ff 100%);
+  border-radius: 24px;
+  height: 48px;
+  border: 0;
+}
+.bridge .container-fluid .card_one .from_btn .send,
+.bridge .container-fluid .card_one .claim .send {
+  display: none;
+}
+.bridge .container-fluid .card_one .claim {
+  display: none;
+}
+.bridge .container-fluid .card_two {
+  margin-left: 100px;
+}
