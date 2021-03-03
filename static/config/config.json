@@ -22,6 +22,7 @@
                 "pToken": "0x3c11c4990447F0AD575eBd74E8cD17bf61848A15",
                 "lToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
                 "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "bTokenSymbol":"BUSD",
                 "chanId":"56"
             }
         ],
@@ -32,6 +33,7 @@
                 "pToken": "0x9c6134F9e759C6812aaC102FC1a9f7cA5615fD33",
                 "lToken": "0x43CA6D7129d7F490d5B91B4D14D7c877D15A92dA",
                 "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "bTokenSymbol":"USDT",
                 "chanId":"1"
             },
             {
@@ -40,6 +42,7 @@
                 "pToken": "0x15aD9b67cf54037127fD986Ca3bB775f9FC4ad05",
                 "lToken": "0xeC27d4c53C2E29F1113A9667c0B19442df83c1f1",
                 "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "bTokenSymbol":"BAC",
                 "chanId":"1"
             }
         ],
@@ -50,6 +53,7 @@
                 "pToken": "0x732Ba556B304fd74Cd14b74ab8762A7D9f26d476",
                 "lToken": "0x90fE976Cbb48E0761A84DDA2974024377994a997",
                 "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "bTokenSymbol":"HUSD",
                 "chanId":"128"
             }
         ]
