@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deri</title>
+    <link rel="stylesheet" href="./css/m.governance.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <!--    <link rel="stylesheet" href="https://use.typekit.net/ibg8qxc.css">-->
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+<div class="bridge">
+    <div id="m-nav">
+        <div id="navigation">
+            <div id="menu-button">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="logo_deri">
+                <img class="logo" src="./img/logo_with_DERI.png" alt='DERI'>
+                <!--                <img class="logo_svg" src="./img/logo.svg" alt='DERI'>-->
+                <!--                <img class="DERI_svg" src="./img/DEFI.svg" alt='DERI'>-->
+            </div>
+        </div>
+        <div id="menu" style="display: none">
+            <div id="menu_top">
+                <div class="logo_deri">
+                    <img class="logo" src="./img/logo_with_DERI.png" alt='DERI'>
+                    <!--                    <img class="logo_svg" src="./img/logo.svg" alt='DERI'>-->
+                    <!--                    <img class="DERI_svg" src="./img/DEFI.svg" alt='DERI'>-->
+                </div>
+                <div id="X"><img id='close' src="./img/close.png"
+                                 alt="close"></div>
+            </div>
+            <div id="menus">
+                <ul>
+                    <li class="menu_li"><a href="https://app.deri.finance/#/mining" class="dark">Mining</a></li>
+                    <li class="menu_li"><a href="http://app.deri.finance/#/lite" class="dark">Trade</a></li>
+                    <li class="menu_li light"><a href="https://governance.deri.finance" class="light">Governance</a>
+                    </li>
+                    <li class="menu_li"><a href="https://bridge.deri.finance" class="dark">Bridge</a></li>
+                    <li class="menu_li"><a id="Docs" href="javascript:docs()">Docs
+                        <svg class="Zi Zi--ArrowDown ContentItem-arrowIcon" fill="currentColor" viewBox="0 0 24 24"
+                             width="24"
+                             height="24">
+                            <path
+                                    d="M12 13L8.285 9.218a.758.758 0 0 0-1.064 0 .738.738 0 0 0 0 1.052l4.249 4.512a.758.758 0 0 0 1.064 0l4.246-4.512a.738.738 0 0 0 0-1.052.757.757 0 0 0-1.063 0L12.002 13z"
+                                    fill-rule="evenodd"></path>
+                        </svg>
+                    </a>
+                    </li>
+                </ul>
+                <div id="docs_index_outer" style="display: none">
+                    <ul id="docs_index">
+                        <li class="docs_li">
+                            <a class="dark"
+                               href="https://github.com/deri-finance/whitepaper/blob/master/deri_whitepaper.pdf">Whitepaper</a>
+                        </li>
+                        <li class="docs_li">
+                            <a class="dark"
+                               href="https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-Deri-v1.0.pdf">Code
+                                Audit</a></li>
+                        <li class="docs_li">
+                            <a class="dark" href="https://deri.finance/#/team">Team</a></li>
+                        <li class="docs_li">
+                            <a class="dark" href="https://docs.deri.finance/faq">FAQ</a></li>
+                        <li class="docs_li">
+                            <a class="dark" href="https://docs.deri.finance/guides">Guide</a></li>
+                        <li class="docs_li">
+                            <a class="dark" href="https://github.com/deri-finance/">Github</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="m-copyright">
+                <div class="line"></div>
+                <div class="copyright_center">
+                    <div class="circles">
+                        <div class="circle show_wechat">
+                            <div class="wechat">
+                                <div class="down_box"></div>
+                            </div>
+                            <div class="fa fa-wechat"></div>
+                        </div>
+                        <a class="circle" href="mailto: service@deri.finance">
+                            <div class="link_in_bottom fa fa-envelope"></div>
+                        </a>
+                        <a class="circle" href="https://deri-protocol.medium.com">
+                            <div class="link_in_bottom fa fa-medium"></div>
+                        </a>
+                        <a class="circle" href="https://twitter.com/DeriProtocol">
+                            <div class="link_in_bottom fa fa-twitter"></div>
+                        </a>
+                        <a class="circle" href="https://github.com/deri-finance/">
+                            <div class="link_in_bottom fa fa-github"></div>
+                        </a>
+                        <a class="circle" href="https://t.me/DeriProtocol">
+                            <div class="link_in_bottom fa fa-paper-plane"></div>
+                        </a>
+                    </div>
+                    <div class="line2">
+                        © 2021 Deri Protocol
+                    </div>
+                </div>
+            </div>
+            <div id="copyright_shadow"></div>
+        </div>
+
+    </div>
+    <div id="m-Wallet">
+        <div class="connect">
+            <div class="network_text_logo" hidden>
+                <img id="netlogo" src="" alt="">
+                <span class="logo_text" id='nettext'></span>
+            </div>
+            <button class="nav_btn connect_btn" id="connect_wallet">
+                Connect Wallet
+            </button>
+            <button class="nav_btn" id='adderssbtn'>
+                <span id="wallet"></span>
+                <span id="walletSymbol"></span>
+                <span class="address" id='adderss'></span>
+            </button>
+            <button class="nav_btn" id='noNetwork'>
+                <span id="noNetworkText"></span>
+            </button>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="H2 DIP1">Meme Coin Index Inclusion Voting</div>
+        <div class="flex">
+            <div>
+                As the DERI PROTOCOL Meme Coin Index (iMEME) is now live, Meme coin index inclusion voting which allows DERI holders to vote on new additions of the iMEME has kicked off based on feedback from the whole community. 
+            </div>
+        </div>
+        <div class="radio">
+            <div>
+                <div class="fle">
+                    <div class="rad">
+                        <input type="radio" name="network" value="0" id='I'/> <Label for="I">I: $HOGE 
+                        </Label>
+                    </div>
+
+                    <div class="prele_eth">
+                        <div class="I-per"></div>
+                        <span class="one"></span> 
+                    </div>
+                </div>
+                <div class="fle">
+                    <div class="rad">
+                        <input type="radio" name="network" value="1" id='II'/> <Label for="II">II: $ERC 20
+                        </Label>
+                    </div>
+
+                    <div class="prele_bsc">
+                        <div class="II-per"></div>
+                        <span class="two"></span> 
+                    </div>
+                </div>
+                <div class="fle">
+                    <div class="rad">
+                        <input type="radio" name="network" value="2" id='III'/> <Label for="III">III: $CUMMIES
+                        </Label>
+                    </div>
+                    <div class="prele_heco">
+                        <div class="III-per"></div>
+                        <span class="three"></span> 
+                    </div>
+                </div>
+                <div class="fle">
+                    <div class="rad">
+                        <input type="radio" name="network" value="3" id='IV'/> <Label for="IV">IV: $BAN
+                        </Label>
+                    </div>
+
+                    <div class="prele_eth">
+                        <div class="IV-per"></div>
+                        <span class="four"></span> 
+                    </div>
+                </div>
+                <div class="fle">
+                    <div class="rad">
+                        <input type="radio" name="network" value="4" id='V'/> <Label for="V">V: $ASS 
+                        </Label>
+                    </div>
+
+                    <div class="prele_bsc">
+                        <div class="V-per"></div>
+                        <span class="five"></span> 
+                    </div>
+                </div>
+                <div class="fle">
+                    <div class="rad">
+                        <input type="radio" name="network" value="5" id='VI'/> <Label for="VI">VI: $doge</Label>
+                    </div>
+                    <div class="prele_heco">
+                        <div class="VI-per"></div>
+                        <span class="six"></span> 
+                    </div>
+                </div>
+                <div class="fle">
+                    <div class="rad">
+                        <input type="radio" name="network" value="6" id='VII'/> <Label for="VII">VII: $pig</Label>
+                    </div>
+
+                    <div class="prele_eth">
+                        <div class="VII-per"></div>
+                        <span class="seven"></span> 
+                    </div>
+                </div>
+                <div class="fle">
+                    <div class="rad">
+                        <input type="radio" name="network" value="7" id='VIII'/> <Label for="VIII">VIII: $shib</Label>
+                    </div>
+
+                    <div class="prele_bsc">
+                        <div class="VIII-per"></div>
+                        <span class="eight"></span> 
+                    </div>
+                </div>
+                <div class="fle">
+                    <div class="rad">
+                        <input type="radio" name="network" value="8" id='IX'/> <Label for="IX">IX: $rndr</Label>
+                    </div>
+                    <div class="prele_heco">
+                        <div class="IX-per"></div>
+                        <span class="nine"></span> 
+                    </div>
+                </div>
+                <div class="fle">
+                    <div class="rad">
+                        <input type="radio" name="network" value="9" id='X'/> <Label for="X">X: $sushi </Label>
+                    </div>
+                    <div class="prele_heco">
+                        <div class="X-per"></div>
+                        <span class="ten"></span> 
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                Wallet Balance: <span class="wallet-deri"></span> DERI
+            </div>
+            <div>
+                <input type="number" id="deri-num" placeholder="Amount" onkeyup="value=value.replace(/^(0+)|[^\d]+/g,'')"> 
+                <span class="basetoken">DERI</span> 
+            </div>
+            <div>
+                <button id='unlock'>
+                    <span
+                        class="spinner spinner-border spinner-border-sm"
+                        role="status"
+                        aria-hidden="true"
+                        style="display: none"
+                        ></span>
+                    APPROVE
+                </button>
+                <button id="vote">
+                        <span
+                                class="spinner spinner-border spinner-border-sm"
+                                role="status"
+                                aria-hidden="true"
+                                style="display: none"
+                        ></span>
+                    VOTE
+                </button>
+            </div>
+            
+            <br>
+            <div>
+                <span class="H2">Voting rules:</span><br><br>
+                1. One DERI one vote, you can input the vote number as you want. <br><br>
+                2. The most popular meme coin will be added to the Meme Coin Index.<br><br>
+                3. Voting Deadline = 2021 March 19th 4:00:00AM UTC<br><br>
+                4. Voting Period from 10:00 May 22, 2021 to 10:00:00 May 27, 2021 (UTC)<br><br>
+                All the DERI collected will be recycled to be mined again. 
+
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="dip-list">
+                <div class="list-title">
+                    <div>
+                        <span class="title">DIP List</span><br>
+                        <span>DIP stands for Deri Protocol Improvement Proposal. </span>
+                    </div>
+                </div>
+                <div class="list-text">
+                    <span>DIP1: Please vote for one of the following options</span>
+                    <a href="m.DIP1.html"><button>Detail</button></a> 
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="m-copyright">
+        <div class="line"></div>
+        <div class="copyright_center">
+            <div class="circles">
+                <div class="circle show_wechat">
+                    <div class="wechat">
+                        <div class="down_box"></div>
+                    </div>
+                    <div class="fa fa-wechat"></div>
+                </div>
+                <a class="circle" href="mailto: service@deri.finance">
+                    <div class="link_in_bottom fa fa-envelope"></div>
+                </a>
+                <a class="circle" href="https://deri-protocol.medium.com">
+                    <div class="link_in_bottom fa fa-medium"></div>
+                </a>
+                <a class="circle" href="https://twitter.com/DeriProtocol">
+                    <div class="link_in_bottom fa fa-twitter"></div>
+                </a>
+                <a class="circle" href="https://github.com/deri-finance/">
+                    <div class="link_in_bottom fa fa-github"></div>
+                </a>
+                <a class="circle" href="https://t.me/DeriProtocol">
+                    <div class="link_in_bottom fa fa-paper-plane"></div>
+                </a>
+            </div>
+            <div class="line2">
+                © 2021 Deri Protocol
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./js/web/jquery-1.10.2.min.js"></script>
+<script src="./js/web/bootstrap.min.js"></script>
+<script src='./js/web/bignumber.min.js'></script>
+<script src="./js/web/web3-1.3.0.min.js"></script>
+<script src="./js/deri_vote.js"></script>
+<script src="./js/chain.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/m.governance.js"></script>
+</body>
+
+</html>

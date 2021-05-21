@@ -1,0 +1,453 @@
+@font-face {
+  font-family: Tachyon;
+  src: url("../fonts/Tachyon.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Termina;
+  src: url("../fonts/Termina.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Arial MT;
+  src: url("../fonts/ArialMT.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.bridge {
+  background-color: #1B1C22;
+  position: relative;
+  color: #cccccc;
+  font-family: Arial MT, sans-serif;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.bridge .nav {
+  height: 80px;
+  padding: 0 40px;
+  width: 100%;
+  background-color: #0D0E0F;
+  font-family: Arial MT, sans-serif;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  position: relative;
+}
+.bridge .nav .nav_mean {
+  width: 100%;
+}
+.bridge .nav #logo {
+  margin-top: 15px;
+  height: 50px;
+  width: 85.79px;
+  float: left;
+}
+.bridge .nav #index {
+  margin-left: 0;
+  height: 80px;
+  font-size: 20px;
+  list-style: none;
+  display: inline;
+  float: left;
+}
+.bridge .nav #index .menu_li {
+  float: left;
+  height: 80px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  text-decoration: none;
+}
+.bridge .nav #index .menu_li .dark {
+  color: #cccccc;
+}
+.bridge .nav #index .menu_li a:hover {
+  color: white;
+  text-decoration: none;
+}
+.bridge .nav #index .menu_li .light {
+  color: white;
+}
+.bridge .nav #docs {
+  display: flex;
+  align-items: center;
+}
+.bridge .nav #docs_index_outer {
+  position: absolute;
+  top: 80px;
+  width: 139px;
+  z-index: 999;
+}
+.bridge .nav #docs_index_outer #docs_index {
+  margin-top: 4px;
+  font-size: 14px;
+  padding: 8px 15px;
+  background-color: #0D0E0F;
+  color: #78787D;
+  list-style: none;
+  border-radius: 4px;
+}
+.bridge .nav #docs_index_outer #docs_index .docs_li {
+  float: top;
+  height: 30px;
+  line-height: 30px;
+}
+.bridge .nav .connect {
+  height: 80px;
+  font-size: 16px;
+  font-weight: 300;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+.bridge .nav .connect .network_text_logo i {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+.bridge .nav .connect .network_text_logo .ETH {
+  background-image: url('../img/logo-ethereum.png');
+  background-position: 15px;
+  background-repeat: no-repeat;
+}
+.bridge .nav .connect .network_text_logo .BNB {
+  background-image: url('../img/logo-bsc.png');
+  background-repeat: no-repeat;
+}
+.bridge .nav .connect .network_text_logo .HT {
+  background-image: url('../img/logo-heco.png');
+  background-position: 15px;
+  background-repeat: no-repeat;
+}
+.bridge .nav .connect .logo_text {
+  margin-left: 16px;
+  display: inline;
+  margin-right: 13px;
+}
+.bridge .nav .connect #adderssbtn {
+  display: none;
+  font-weight: 300;
+  line-height: 33px;
+  font-family: Arial MT, sans-serif;
+}
+.bridge .nav .connect button {
+  height: 48px;
+  padding-left: 14px;
+  padding-right: 14px;
+  color: #FFFFFF;
+  background-color: #0D0E0F;
+  font-weight: 300;
+  line-height: 33px;
+  background-image: url('../img/connect_bg.png');
+  background-size: 100% 100%;
+  border-radius: 17px;
+  outline: 0 none !important;
+  border: 0;
+  display: inline;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+.bridge .nav .connect button .address {
+  color: #569BDA;
+  margin-left: 5px;
+  font-family: Arial MT, sans-serif;
+}
+.bridge .nav .connect .nav_btn {
+  text-align: center;
+  font-weight: 300;
+  font-family: Arial MT, sans-serif;
+}
+.bridge .nav .connect .connect_btn {
+  width: 220px;
+  text-align: center;
+  font-weight: 300;
+  font-family: Arial MT, sans-serif;
+}
+.bridge .nav .connect #noNetwork {
+  color: #E35061;
+  display: none;
+}
+.bridge .container-fluid .DIP1 {
+  display: flex;
+  width: 800px;
+  margin: 50px  auto 0;
+}
+.bridge .container-fluid .flex {
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin: 10px auto 0;
+  align-items: center;
+}
+.bridge .container-fluid .radio {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.bridge .container-fluid .radio .wallet-deri {
+  font-weight: bold;
+}
+.bridge .container-fluid .radio #deri-num {
+  height: 50px;
+  width: 260px;
+  padding-left: 10px;
+  border: 0;
+  color: #000;
+  background: #ffffff;
+  outline: none;
+}
+.bridge .container-fluid .radio .basetoken {
+  position: relative;
+  top: 15px;
+}
+.bridge .container-fluid .radio #vote,
+.bridge .container-fluid .radio #unlock {
+  background-image: linear-gradient(90deg, #09d3af 0%, #09b8c2 18%, #0965ff 100%);
+  border-radius: 24px;
+  height: 38px;
+  border: 0;
+  color: #fff;
+  width: 200px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.bridge .container-fluid .radio #vote {
+  display: none;
+}
+.bridge .container-fluid .radio .fle {
+  display: flex;
+  justify-content: space-between;
+}
+.bridge .container-fluid .radio .rad {
+  width: 220px;
+}
+.bridge .container-fluid .radio .prele_eth,
+.bridge .container-fluid .radio .prele_bsc,
+.bridge .container-fluid .radio .prele_heco {
+  display: inline-block;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+}
+.bridge .container-fluid .radio .prele_eth .I-per,
+.bridge .container-fluid .radio .prele_bsc .I-per,
+.bridge .container-fluid .radio .prele_heco .I-per {
+  height: 20px;
+  display: inline-block;
+  background: linear-gradient(90deg, #09D3AF 0%, #09B8C2 18%, #0965FF 100%);
+}
+.bridge .container-fluid .radio .prele_eth .II-per,
+.bridge .container-fluid .radio .prele_bsc .II-per,
+.bridge .container-fluid .radio .prele_heco .II-per {
+  height: 20px;
+  display: inline-block;
+  background: linear-gradient(90deg, #09D3AF 0%, #09B8C2 18%, #0965FF 100%);
+}
+.bridge .container-fluid .radio .prele_eth .III-per,
+.bridge .container-fluid .radio .prele_bsc .III-per,
+.bridge .container-fluid .radio .prele_heco .III-per {
+  height: 20px;
+  display: inline-block;
+  background: linear-gradient(90deg, #09D3AF 0%, #09B8C2 18%, #0965FF 100%);
+}
+.bridge .container-fluid .radio .prele_eth .IV-per,
+.bridge .container-fluid .radio .prele_bsc .IV-per,
+.bridge .container-fluid .radio .prele_heco .IV-per {
+  height: 20px;
+  display: inline-block;
+  background: linear-gradient(90deg, #09D3AF 0%, #09B8C2 18%, #0965FF 100%);
+}
+.bridge .container-fluid .radio .prele_eth .V-per,
+.bridge .container-fluid .radio .prele_bsc .V-per,
+.bridge .container-fluid .radio .prele_heco .V-per {
+  height: 20px;
+  display: inline-block;
+  background: linear-gradient(90deg, #09D3AF 0%, #09B8C2 18%, #0965FF 100%);
+}
+.bridge .container-fluid .radio .prele_eth .VI-per,
+.bridge .container-fluid .radio .prele_bsc .VI-per,
+.bridge .container-fluid .radio .prele_heco .VI-per {
+  height: 20px;
+  display: inline-block;
+  background: linear-gradient(90deg, #09D3AF 0%, #09B8C2 18%, #0965FF 100%);
+}
+.bridge .container-fluid .radio .prele_eth .VII-per,
+.bridge .container-fluid .radio .prele_bsc .VII-per,
+.bridge .container-fluid .radio .prele_heco .VII-per {
+  height: 20px;
+  display: inline-block;
+  background: linear-gradient(90deg, #09D3AF 0%, #09B8C2 18%, #0965FF 100%);
+}
+.bridge .container-fluid .radio .prele_eth .VIII-per,
+.bridge .container-fluid .radio .prele_bsc .VIII-per,
+.bridge .container-fluid .radio .prele_heco .VIII-per {
+  height: 20px;
+  display: inline-block;
+  background: linear-gradient(90deg, #09D3AF 0%, #09B8C2 18%, #0965FF 100%);
+}
+.bridge .container-fluid .radio .prele_eth .IX-per,
+.bridge .container-fluid .radio .prele_bsc .IX-per,
+.bridge .container-fluid .radio .prele_heco .IX-per {
+  height: 20px;
+  display: inline-block;
+  background: linear-gradient(90deg, #09D3AF 0%, #09B8C2 18%, #0965FF 100%);
+}
+.bridge .container-fluid .radio .prele_eth .X-per,
+.bridge .container-fluid .radio .prele_bsc .X-per,
+.bridge .container-fluid .radio .prele_heco .X-per {
+  height: 20px;
+  display: inline-block;
+  background: linear-gradient(90deg, #09D3AF 0%, #09B8C2 18%, #0965FF 100%);
+}
+.bridge .container-fluid .radio .dip-list .list-title {
+  background-image: url('../img/DIP-list.jpg');
+  background-size: cover;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.bridge .container-fluid .radio .dip-list .list-title .title {
+  font-family: Tachyon, sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+.bridge .container-fluid .radio .dip-list .list-text {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #707070;
+  margin: 30px 0;
+  border-radius: 2px;
+  padding: 0 15px 0 15px;
+}
+.bridge .container-fluid .radio .dip-list .list-text button {
+  border: 0;
+  line-height: 30px;
+  text-align: center;
+  width: 71px;
+  height: 38px;
+  font-size: 14px;
+  font-weight: bold;
+  background-image: linear-gradient(90deg, #09d3af 0%, #09b8c2 18%, #0965ff 100%);
+  border-radius: 24px;
+}
+#copyright {
+  padding: 0 40px;
+  height: 120px;
+  font-family: Arial MT, sans-serif;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #cccccc;
+}
+#copyright #copyright_center {
+  width: auto;
+}
+#copyright .line {
+  width: 100%;
+  border-top: 1px solid #707070;
+}
+#copyright .copyright-L {
+  margin-top: 39px;
+  float: left;
+  font-size: 15px;
+  font-weight: 300;
+  color: #cccccc;
+}
+#copyright .copyright-L #copyright-L_index {
+  list-style: none;
+  display: inline;
+  float: left;
+  margin-bottom: 5px;
+}
+#copyright .copyright-L #copyright-L_index .menu_li {
+  float: left;
+  margin-right: 20px;
+  color: #a9a9a9;
+}
+#copyright .copyright-L #copyright-L_index .menu_li a {
+  color: #cccccc;
+}
+#copyright .copyright-L #copyright-L_index .menu_li a:hover {
+  color: #569BDA;
+  list-style: none;
+}
+#copyright .copyright-R {
+  margin-top: 42px;
+  float: right;
+  color: white;
+  display: inline;
+}
+#copyright .copyright-R #Visit-us-on {
+  margin-top: 4px;
+  float: right;
+  font-size: 20px;
+  font-weight: 500;
+  display: inline;
+}
+#copyright .copyright-R .circle {
+  cursor: pointer;
+  margin-top: 3px;
+  float: right;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: white;
+  margin-left: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#copyright .copyright-R .circle .fa {
+  position: relative;
+  color: #2f2f2f;
+}
+#copyright .copyright-R .circle .wechat {
+  background-color: white;
+  background-image: url('../img/wechat.jpg');
+  background-size: cover;
+  border: 1px solid #707070;
+  width: 99px;
+  height: 99px;
+  border-radius: 10px;
+  display: none;
+  position: absolute;
+  top: -125px;
+  left: -55px;
+}
+#copyright .copyright-R .circle .wechat .down_box {
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  border-bottom: 10px solid white;
+  position: absolute;
+  transform: rotate(180deg);
+  bottom: -10px;
+  right: 20px;
+}
+#copyright .copyright-R .circle:hover .wechat {
+  display: block;
+}
+#copyright .copyright-R .circle:hover .fa {
+  position: relative;
+  color: #569BDA;
+}
+.H2 {
+  font-family: Tachyon, sans-serif;
+  font-weight: 300;
+  color: #D4E05C;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
