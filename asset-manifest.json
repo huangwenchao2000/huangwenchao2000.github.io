@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3bba2731.css",
-    "main.js": "/static/js/main.665d2144.js",
+    "main.css": "/static/css/main.3c543cfa.css",
+    "main.js": "/static/js/main.67d5548f.js",
     "static/js/199.60fec64f.chunk.js": "/static/js/199.60fec64f.chunk.js",
     "static/js/42.02e0de77.chunk.js": "/static/js/42.02e0de77.chunk.js",
     "static/js/27.088fd4ee.chunk.js": "/static/js/27.088fd4ee.chunk.js",
@@ -59,7 +59,7 @@
     "static/media/share-discord.svg": "/static/media/share-discord.4b09842fe3df98885a6d.svg",
     "static/media/close-only.svg": "/static/media/close-only.d6401c35beee55515db1.svg",
     "static/media/TON.svg": "/static/media/TON.6cefad621eb41e5b5035.svg",
-    "static/media/share-twitter.svg": "/static/media/share-twitter.aa3143ac97ace13df84684d86bd85b14.svg",
+    "static/media/share-twitter.svg": "/static/media/share-twitter.953dd2720024b9ecd841.svg",
     "static/media/no-data-icon.svg": "/static/media/no-data-icon.a143531c53c651aed10e.svg",
     "static/media/FITFI.svg": "/static/media/FITFI.1eebaa711f6eb35bab01.svg",
     "static/media/warning-blue.svg": "/static/media/warning-blue.2a96f6e6d968a9c98be8.svg",
@@ -111,6 +111,7 @@
     "static/media/AVAX.svg": "/static/media/AVAX.6f864acc0daa03b279b1.svg",
     "static/media/warn-remove-hint.svg": "/static/media/warn-remove-hint.8345ea56a7d81e9760a1.svg",
     "static/media/tab-option.svg": "/static/media/tab-option.9289b63deb89f1097961.svg",
+    "static/media/history.svg": "/static/media/history.2c49dd649d4fcfcd5921.svg",
     "static/media/toast-warn.svg": "/static/media/toast-warn.53f6ad6e827fc3bbd4c8.svg",
     "static/media/AAVE.svg": "/static/media/AAVE.b8ad1b4206e1c0d409a1.svg",
     "static/media/feed-back.svg": "/static/media/feed-back.7c7784624db8b43f0b71.svg",
@@ -129,11 +130,11 @@
     "static/media/telegram.svg": "/static/media/telegram.3ea3bf4e0ecf774a48d1.svg",
     "static/media/lang-icon.svg": "/static/media/lang-icon.f9d54bfdc740630a321fdcf968c7d18f.svg",
     "static/media/hint.svg": "/static/media/hint.07b059b20e6c88830f99.svg",
-    "static/media/no-volatility.svg": "/static/media/no-volatility.df19c9b197e0c7bac69f9f65308800fb.svg",
+    "static/media/no-volatility.svg": "/static/media/no-volatility.df19c9b197e0c7bac69f.svg",
     "static/media/warn.svg": "/static/media/warn.6ab3fd7661b1d937f181.svg",
-    "static/media/pnlUp.svg": "/static/media/pnlUp.b2940354bc6ea5f0cb31ace17aa37dc6.svg",
+    "static/media/pnlUp.svg": "/static/media/pnlUp.b2940354bc6ea5f0cb31.svg",
     "static/media/medium.svg": "/static/media/medium.1eca665afec8bc149148.svg",
-    "static/media/pnlDown.svg": "/static/media/pnlDown.82ba955ad738c4c34c60f2168cc2fff8.svg",
+    "static/media/pnlDown.svg": "/static/media/pnlDown.82ba955ad738c4c34c60.svg",
     "static/media/github.svg": "/static/media/github.ebb409c00806b5993924.svg",
     "static/media/step-two.svg": "/static/media/step-two.1a418ebc41897b05486c.svg",
     "static/media/long-pnl.svg": "/static/media/long-pnl.2b2051b8c36c18a478fd.svg",
@@ -228,7 +229,7 @@
     "static/media/menu.svg": "/static/media/menu.aa4c2f8f458a26a2ed7e.svg"
   },
   "entrypoints": [
-    "static/css/main.3bba2731.css",
-    "static/js/main.665d2144.js"
+    "static/css/main.3c543cfa.css",
+    "static/js/main.67d5548f.js"
   ]
 }
