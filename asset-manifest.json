@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.eac9dbe5.css",
-    "main.js": "/static/js/main.11449689.js",
+    "main.css": "/static/css/main.4015e0cc.css",
+    "main.js": "/static/js/main.e647d653.js",
     "static/js/199.60fec64f.chunk.js": "/static/js/199.60fec64f.chunk.js",
     "static/js/42.02e0de77.chunk.js": "/static/js/42.02e0de77.chunk.js",
     "static/js/27.088fd4ee.chunk.js": "/static/js/27.088fd4ee.chunk.js",
@@ -64,6 +64,7 @@
     "static/media/no-data-icon.svg": "/static/media/no-data-icon.a143531c53c651aed10e.svg",
     "static/media/FITFI.svg": "/static/media/FITFI.1eebaa711f6eb35bab01.svg",
     "static/media/warning-blue.svg": "/static/media/warning-blue.2a96f6e6d968a9c98be8.svg",
+    "static/media/share-tg-icon.svg": "/static/media/share-tg-icon.6c5f65944bcab91b249a.svg",
     "static/media/share-medium.svg": "/static/media/share-medium.4965de9cc6f5a35a24ce.svg",
     "static/media/USDB.svg": "/static/media/USDB.f77a0e2a12c3f3769900.svg",
     "static/media/SXP copy.svg": "/static/media/SXP copy.15b2a8e35da9f4f40242.svg",
@@ -230,7 +231,7 @@
     "static/media/menu.svg": "/static/media/menu.aa4c2f8f458a26a2ed7e.svg"
   },
   "entrypoints": [
-    "static/css/main.eac9dbe5.css",
-    "static/js/main.11449689.js"
+    "static/css/main.4015e0cc.css",
+    "static/js/main.e647d653.js"
   ]
 }
