@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.55e40422.css",
-    "main.js": "/static/js/main.eb5f82fb.js",
+    "main.css": "/static/css/main.c2771576.css",
+    "main.js": "/static/js/main.6c9ce135.js",
     "static/js/199.60fec64f.chunk.js": "/static/js/199.60fec64f.chunk.js",
     "static/js/42.02e0de77.chunk.js": "/static/js/42.02e0de77.chunk.js",
     "static/js/27.088fd4ee.chunk.js": "/static/js/27.088fd4ee.chunk.js",
@@ -35,6 +35,9 @@
     "static/media/rebate.svg": "/static/media/rebate.dc52a91b1e0662881700.svg",
     "static/media/twitter.svg": "/static/media/twitter.eee5155f05704749f88d.svg",
     "static/media/coinbase.svg": "/static/media/coinbase.a87e55b6dc04b52c191a.svg",
+    "static/media/total-rewards-m.png": "/static/media/total-rewards-m.da9694bf55a4a3e1c6b1.png",
+    "static/media/total-fee-m.png": "/static/media/total-fee-m.91d6ad13e8d731bcb224.png",
+    "static/media/total-users-m.png": "/static/media/total-users-m.1aa9b1b73e595419a757.png",
     "static/media/ADA.svg": "/static/media/ADA.57bd82637922e5be1690.svg",
     "static/media/ETH.svg": "/static/media/ETH.017d28018b651588b1af.svg",
     "static/media/WIF.svg": "/static/media/WIF.1ca9a0f4bc1a819353ee.svg",
@@ -61,12 +64,20 @@
     "static/media/close-only.svg": "/static/media/close-only.d6401c35beee55515db1.svg",
     "static/media/TON.svg": "/static/media/TON.6cefad621eb41e5b5035.svg",
     "static/media/share-twitter.svg": "/static/media/share-twitter.953dd2720024b9ecd841.svg",
+    "static/media/account-cur.svg": "/static/media/account-cur.13eb20133472b08723da.svg",
+    "static/media/account.svg": "/static/media/account.44261967ac8b61c14170.svg",
+    "static/media/trade-cur.svg": "/static/media/trade-cur.cda4946231d76460ef68.svg",
+    "static/media/trade.svg": "/static/media/trade.6074b138feca2c919e2a.svg",
     "static/media/no-data-icon.svg": "/static/media/no-data-icon.a143531c53c651aed10e.svg",
+    "static/media/earn-cur.svg": "/static/media/earn-cur.7a4d8943c8bf5969a64c.svg",
     "static/media/FITFI.svg": "/static/media/FITFI.1eebaa711f6eb35bab01.svg",
     "static/media/warning-blue.svg": "/static/media/warning-blue.2a96f6e6d968a9c98be8.svg",
     "static/media/share-tg-icon.svg": "/static/media/share-tg-icon.6c5f65944bcab91b249a.svg",
+    "static/media/earn.svg": "/static/media/earn.8fa8b00f7beb58f695fe.svg",
+    "static/media/referral-cur.svg": "/static/media/referral-cur.9e1a2826672a8fa8ea53.svg",
     "static/media/share-medium.svg": "/static/media/share-medium.4965de9cc6f5a35a24ce.svg",
     "static/media/USDB.svg": "/static/media/USDB.f77a0e2a12c3f3769900.svg",
+    "static/media/referral.svg": "/static/media/referral.638e907e6ead50052f19.svg",
     "static/media/SXP copy.svg": "/static/media/SXP copy.15b2a8e35da9f4f40242.svg",
     "static/media/SXP.svg": "/static/media/SXP.15b2a8e35da9f4f40242.svg",
     "static/media/OP.svg": "/static/media/OP.a074f80bb75cacbf3baf.svg",
@@ -89,10 +100,10 @@
     "static/media/new-symbol.svg": "/static/media/new-symbol.5c8318ab848e04393938.svg",
     "static/media/metamask.svg": "/static/media/metamask.354e0086ec0ec0a4eb60.svg",
     "static/media/association.svg": "/static/media/association.b053385739420e003915.svg",
-    "index.html": "/index.html",
     "static/media/pool-new-label.svg": "/static/media/pool-new-label.654a397875b32fc580ec.svg",
     "static/media/reset.svg": "/static/media/reset.c5fc29bfc8fc3ed683fc.svg",
     "static/media/token-value-max.svg": "/static/media/token-value-max.cf4234dc3ae30220ed5d.svg",
+    "index.html": "/index.html",
     "static/media/amusdc.svg": "/static/media/amusdc.a91be758534458fb7a2a.svg",
     "static/media/ARB.svg": "/static/media/ARB.d6e9a9febbff14511fb5.svg",
     "static/media/BNB.svg": "/static/media/BNB.1f2d8869808f7fb780a2.svg",
@@ -232,7 +243,7 @@
     "static/media/menu.svg": "/static/media/menu.aa4c2f8f458a26a2ed7e.svg"
   },
   "entrypoints": [
-    "static/css/main.55e40422.css",
-    "static/js/main.eb5f82fb.js"
+    "static/css/main.c2771576.css",
+    "static/js/main.6c9ce135.js"
   ]
 }
