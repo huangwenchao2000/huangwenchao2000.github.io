@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb44027a.css",
-    "main.js": "/static/js/main.be219a9f.js",
+    "main.css": "/static/css/main.3cbfc965.css",
+    "main.js": "/static/js/main.c442284d.js",
     "static/js/199.60fec64f.chunk.js": "/static/js/199.60fec64f.chunk.js",
     "static/js/42.02e0de77.chunk.js": "/static/js/42.02e0de77.chunk.js",
     "static/js/27.088fd4ee.chunk.js": "/static/js/27.088fd4ee.chunk.js",
@@ -24,15 +24,15 @@
     "static/media/BarlowSemiCondensed-Regular.ttf": "/static/media/BarlowSemiCondensed-Regular.28bce4c43f58ea98f789.ttf",
     "static/media/DOGE.svg": "/static/media/DOGE.76ddc0955594a1bde772.svg",
     "static/media/TUSD.svg": "/static/media/TUSD.92c5d7673c59320430cb.svg",
-    "static/media/silver-medal.svg": "/static/media/silver-medal.d2f429a39d0eb3c41497fa5aa5fea8c2.svg",
-    "static/media/gold-medal.svg": "/static/media/gold-medal.98265087cd418eb17b42845d61048e0b.svg",
+    "static/media/silver-medal.svg": "/static/media/silver-medal.aa2f7f095af7b72b799b4c6bbbb5af72.svg",
+    "static/media/gold-medal.svg": "/static/media/gold-medal.bca79724658ed65295b09f6ca4e67aba.svg",
+    "static/media/bronze-medal.svg": "/static/media/bronze-medal.f0fcb21ae9571f5e908dfbf5c331148f.svg",
     "static/media/share-friend-icon.svg": "/static/media/share-friend-icon.0d54046aaed2137a6885.svg",
     "static/media/task-discord.svg": "/static/media/task-discord.a8ef68b1298966e43cb8.svg",
     "static/media/taiko-chain-logo.svg": "/static/media/taiko-chain-logo.53b70dc78d1025474104.svg",
     "static/media/XVS.svg": "/static/media/XVS.780d1abe72099a8ece6a.svg",
     "static/media/facebook.svg": "/static/media/facebook.4e480b0d5fd17a1d3f29.svg",
     "static/media/deri-fi.png": "/static/media/deri-fi.ab56d302353c97df5a9c.png",
-    "static/media/bronze-medal.svg": "/static/media/bronze-medal.30dca488f75848ce07731e69c4563ddf.svg",
     "static/media/UST.svg": "/static/media/UST.04d71276a51bd79c8585.svg",
     "static/media/task-deposit.svg": "/static/media/task-deposit.b6e9eeac4359c0fb91ab.svg",
     "static/media/FLOKI.svg": "/static/media/FLOKI.748c2d93e3c3b0a4ffa6.svg",
@@ -256,7 +256,7 @@
     "static/media/menu.svg": "/static/media/menu.5b5e698afeec5bfcd0de.svg"
   },
   "entrypoints": [
-    "static/css/main.fb44027a.css",
-    "static/js/main.be219a9f.js"
+    "static/css/main.3cbfc965.css",
+    "static/js/main.c442284d.js"
   ]
 }
