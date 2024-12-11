@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.152ad6b2.css",
-    "main.js": "/static/js/main.424c4612.js",
+    "main.css": "/static/css/main.58082438.css",
+    "main.js": "/static/js/main.09607974.js",
     "static/js/199.60fec64f.chunk.js": "/static/js/199.60fec64f.chunk.js",
     "static/js/42.02e0de77.chunk.js": "/static/js/42.02e0de77.chunk.js",
     "static/js/27.088fd4ee.chunk.js": "/static/js/27.088fd4ee.chunk.js",
@@ -27,6 +27,7 @@
     "static/media/silver-medal.svg": "/static/media/silver-medal.aa2f7f095af7b72b799b4c6bbbb5af72.svg",
     "static/media/gold-medal.svg": "/static/media/gold-medal.bca79724658ed65295b09f6ca4e67aba.svg",
     "static/media/bronze-medal.svg": "/static/media/bronze-medal.f0fcb21ae9571f5e908dfbf5c331148f.svg",
+    "static/media/fire-icon.svg": "/static/media/fire-icon.6f8dab15d2ab533cd76b.svg",
     "static/media/share-friend-icon.svg": "/static/media/share-friend-icon.0d54046aaed2137a6885.svg",
     "static/media/task-discord.svg": "/static/media/task-discord.a8ef68b1298966e43cb8.svg",
     "static/media/taiko-chain-logo.svg": "/static/media/taiko-chain-logo.53b70dc78d1025474104.svg",
@@ -256,7 +257,7 @@
     "static/media/menu.svg": "/static/media/menu.5b5e698afeec5bfcd0de.svg"
   },
   "entrypoints": [
-    "static/css/main.152ad6b2.css",
-    "static/js/main.424c4612.js"
+    "static/css/main.58082438.css",
+    "static/js/main.09607974.js"
   ]
 }
