@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.88e42a96.css",
-    "main.js": "/static/js/main.f859f264.js",
+    "main.css": "/static/css/main.9c9cf056.css",
+    "main.js": "/static/js/main.d86279dc.js",
     "static/js/199.60fec64f.chunk.js": "/static/js/199.60fec64f.chunk.js",
-    "static/js/42.02e0de77.chunk.js": "/static/js/42.02e0de77.chunk.js",
     "static/js/27.088fd4ee.chunk.js": "/static/js/27.088fd4ee.chunk.js",
     "static/js/544.47c9b630.chunk.js": "/static/js/544.47c9b630.chunk.js",
     "static/media/share-position-power.svg": "/static/media/share-position-power.f62cbaad2587c24cbc73.svg",
@@ -116,6 +115,7 @@
     "static/media/reset.svg": "/static/media/reset.2ea616e2718b4940b56a.svg",
     "static/media/token-value-max.svg": "/static/media/token-value-max.3113b53c2d0d540f287b.svg",
     "index.html": "/index.html",
+    "static/media/uxuy.svg": "/static/media/uxuy.ff60dfefc10ec0d61f35.svg",
     "static/media/amusdc.svg": "/static/media/amusdc.a91be758534458fb7a2a.svg",
     "static/media/ARB.svg": "/static/media/ARB.faa42c96978b4291a6b0.svg",
     "static/media/BNB.svg": "/static/media/BNB.1518b6e15da034eba90a.svg",
@@ -257,7 +257,7 @@
     "static/media/menu.svg": "/static/media/menu.5b5e698afeec5bfcd0de.svg"
   },
   "entrypoints": [
-    "static/css/main.88e42a96.css",
-    "static/js/main.f859f264.js"
+    "static/css/main.9c9cf056.css",
+    "static/js/main.d86279dc.js"
   ]
 }
