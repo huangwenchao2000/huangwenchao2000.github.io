@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e56e4b38.css",
-    "main.js": "/static/js/main.ea9edc73.js",
+    "main.js": "/static/js/main.94dae169.js",
     "static/js/199.60fec64f.chunk.js": "/static/js/199.60fec64f.chunk.js",
     "static/js/27.088fd4ee.chunk.js": "/static/js/27.088fd4ee.chunk.js",
     "static/js/544.47c9b630.chunk.js": "/static/js/544.47c9b630.chunk.js",
@@ -74,6 +74,7 @@
     "static/media/close-only.svg": "/static/media/close-only.480d2b7652352096c903.svg",
     "static/media/TON.svg": "/static/media/TON.c12d9238a7ba1e395187.svg",
     "static/media/share-twitter.svg": "/static/media/share-twitter.04a69cca3c8ae7fbe81c.svg",
+    "static/media/SUPRA.svg": "/static/media/SUPRA.ade0e3bc30ff042f9ba9.svg",
     "static/media/supra-chain-logo.svg": "/static/media/supra-chain-logo.ade0e3bc30ff042f9ba9.svg",
     "static/media/account-cur.svg": "/static/media/account-cur.d18b1f488ba66c40bdbf.svg",
     "static/media/account.svg": "/static/media/account.284f08899a15273dd4f1.svg",
@@ -260,6 +261,6 @@
   },
   "entrypoints": [
     "static/css/main.e56e4b38.css",
-    "static/js/main.ea9edc73.js"
+    "static/js/main.94dae169.js"
   ]
 }
