@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cc27a79b.css",
-    "main.js": "/static/js/main.c644913d.js",
+    "main.css": "/static/css/main.e340bd5a.css",
+    "main.js": "/static/js/main.399b1df6.js",
     "static/js/199.60fec64f.chunk.js": "/static/js/199.60fec64f.chunk.js",
     "static/js/27.088fd4ee.chunk.js": "/static/js/27.088fd4ee.chunk.js",
     "static/js/544.47c9b630.chunk.js": "/static/js/544.47c9b630.chunk.js",
@@ -37,6 +37,7 @@
     "static/media/task-deposit.svg": "/static/media/task-deposit.b6e9eeac4359c0fb91ab.svg",
     "static/media/FLOKI.svg": "/static/media/FLOKI.748c2d93e3c3b0a4ffa6.svg",
     "static/media/BABYDOGE.svg": "/static/media/BABYDOGE.224f52900850cc1fea0d.svg",
+    "static/media/base-chain-logo.svg": "/static/media/base-chain-logo.fad0ad38beb26d88919a.svg",
     "static/media/CAKE.svg": "/static/media/CAKE.82e714df38ea84d07f6a.svg",
     "static/media/WETH.svg": "/static/media/WETH.eda5ca694f6c6402f0bc.svg",
     "static/media/rebate.svg": "/static/media/rebate.dae1da60b6d4c37b1cac.svg",
@@ -49,6 +50,7 @@
     "static/media/total-users-m.png": "/static/media/total-users-m.1aa9b1b73e595419a757.png",
     "static/media/ADA.svg": "/static/media/ADA.16778aad2deaccebbc4f.svg",
     "static/media/ETH.svg": "/static/media/ETH.017d28018b651588b1af.svg",
+    "static/media/task-wallet.svg": "/static/media/task-wallet.c63a87c8ea55eb55e249.svg",
     "static/media/create-account-icon.svg": "/static/media/create-account-icon.f3db604d4e4fed1e5175.svg",
     "static/media/WIF.svg": "/static/media/WIF.0be4852fb4e1e30206b2.svg",
     "static/media/walletconnect.svg": "/static/media/walletconnect.304e327744ae5c9b1b62.svg",
@@ -75,8 +77,11 @@
     "static/media/close-only.svg": "/static/media/close-only.480d2b7652352096c903.svg",
     "static/media/TON.svg": "/static/media/TON.c12d9238a7ba1e395187.svg",
     "static/media/share-twitter.svg": "/static/media/share-twitter.04a69cca3c8ae7fbe81c.svg",
+    "static/media/started-fully.svg": "/static/media/started-fully.dcd111e2ea0562396aec.svg",
+    "static/media/started-withdraw.svg": "/static/media/started-withdraw.989a78b7b766653c2cc1.svg",
     "static/media/SUPRA.svg": "/static/media/SUPRA.ade0e3bc30ff042f9ba9.svg",
     "static/media/supra-chain-logo.svg": "/static/media/supra-chain-logo.ade0e3bc30ff042f9ba9.svg",
+    "static/media/stated-click.svg": "/static/media/stated-click.5db4b121deab0032f8e9.svg",
     "static/media/account-cur.svg": "/static/media/account-cur.d18b1f488ba66c40bdbf.svg",
     "static/media/account.svg": "/static/media/account.284f08899a15273dd4f1.svg",
     "static/media/trade-cur.svg": "/static/media/trade-cur.93d695931fe25b239a13.svg",
@@ -87,6 +92,7 @@
     "static/media/warning-blue.svg": "/static/media/warning-blue.4687b9ad2afd6afc50b5.svg",
     "static/media/share-tg-icon.svg": "/static/media/share-tg-icon.aee8c5b454cc95bd02e7.svg",
     "static/media/earn.svg": "/static/media/earn.f6ed9cbe1b2934c10d42.svg",
+    "static/media/CBBTC.svg": "/static/media/CBBTC.72a36e23b24e60df1335.svg",
     "static/media/referral-cur.svg": "/static/media/referral-cur.30c167e33d5e68f06b9e.svg",
     "static/media/share-medium.svg": "/static/media/share-medium.77577c5253a7dfb00ce4.svg",
     "static/media/USDB.svg": "/static/media/USDB.eaf0dd28e9f6bc26d7f3.svg",
@@ -265,7 +271,7 @@
     "static/media/menu.svg": "/static/media/menu.5b5e698afeec5bfcd0de.svg"
   },
   "entrypoints": [
-    "static/css/main.cc27a79b.css",
-    "static/js/main.c644913d.js"
+    "static/css/main.e340bd5a.css",
+    "static/js/main.399b1df6.js"
   ]
 }
