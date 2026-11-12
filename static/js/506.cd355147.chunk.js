@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkderi_client_ts=self.webpackChunkderi_client_ts||[]).push([[506],{47506:function(e){e.exports=function(){throw new Error("ws does not work in the browser. Browser clients must use the native WebSocket object")}}}]);
